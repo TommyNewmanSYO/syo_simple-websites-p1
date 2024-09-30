@@ -1,0 +1,28 @@
+.promo .section-text {
+  padding-inline: 8px;
+  margin-block-end: 50px;
+}
+
+.promo-card {
+  border-radius: var(--radius-5);
+  padding: 40px 25px;
+}
+
+.promo-card .card-icon {
+  background-color: var(--onyx-1);
+  color: var(--white);
+  width: max-content;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: var(--radius-circle);
+  margin-block-end: 20px;
+}
+
+.promo-card .card-icon ion-icon {
+  --ionicon-stroke-width: 50px;
+}
+
+.promo-card .card-text {
+  color: var(--alice-blue);
+  margin-block: 20px 16px;
+}

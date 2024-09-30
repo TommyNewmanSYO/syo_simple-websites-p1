@@ -1,0 +1,28 @@
+.stats .container {
+  display: grid;
+  gap: 50px;
+}
+
+.stats .section-text:last-of-type {
+  margin-block: 16px;
+}
+
+.stats-list {
+  display: grid;
+  gap: 15px;
+}
+
+.stats-card {
+  padding: 17px;
+  border-radius: var(--radius-5);
+}
+
+.stats-card .card-title {
+  font-size: var(--fs-3);
+  margin-block-end: 10px;
+}
+
+.stats-card .card-text {
+  font-size: var(--fs-7);
+  color: var(--alice-blue);
+}

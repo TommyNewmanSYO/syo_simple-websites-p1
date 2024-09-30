@@ -1,0 +1,22 @@
+.popular .section-text {
+  margin-block: 10px 40px;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+  margin-block-end: 40px;
+}
+
+.filter-btn {
+  font-family: var(--ff-jost);
+  font-size: var(--fs-5);
+  padding: 5px 20px;
+  transition: var(--transition-1);
+}
+
+.filter-btn.active {
+  color: var(--maximum-blue-green);
+}
