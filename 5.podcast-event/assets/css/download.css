@@ -1,0 +1,23 @@
+.download {
+  padding: 80px 0;
+}
+
+.download-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 40px;
+}
+
+.download-link {
+  max-width: 150px;
+  color: var(--white);
+  font-size: var(--fs-4);
+  text-align: center;
+}
+
+.download-link ion-icon {
+  margin: auto;
+  font-size: 65px;
+  margin-bottom: 15px;
+}

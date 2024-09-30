@@ -1,0 +1,11 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 0 130px;
+}
+
+.hero-title {
+  margin-bottom: 50px;
+}
