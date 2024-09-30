@@ -1,0 +1,21 @@
+.instruction {
+  padding-block-end: var(--section-padding);
+}
+
+.instruction .section-title {
+  margin-block-end: 50px;
+}
+
+.instruction-icon ion-icon {
+  font-size: 5rem;
+  color: var(--han-purple);
+  --ionicon-stroke-width: 25px;
+}
+
+.instruction-title {
+  color: var(--white);
+  font-family: var(--ff-jost);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-600);
+  margin-block: 15px;
+}

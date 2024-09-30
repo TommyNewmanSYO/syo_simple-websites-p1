@@ -1,0 +1,25 @@
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  background-color: var(--xiketic);
+  color: var(--cultured);
+  font-size: 2rem;
+  padding: 15px 12px;
+  border-radius: var(--radius-6);
+  box-shadow: var(--shadow-2);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: var(--transition-1);
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-15px);
+}
+
+.back-to-top:is(:hover, :focus) {
+  background-color: var(--raisin-black);
+}
