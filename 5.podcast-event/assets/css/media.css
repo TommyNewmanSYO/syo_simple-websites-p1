@@ -1,3 +1,9 @@
+@media (max-width: 360px) {
+  .feature-banner-bg {
+    width: 100%;
+  }
+}
+
 /**
  * responsive larger than 360px screen
  */
@@ -241,7 +247,7 @@
   .hero-banner {
     position: absolute;
     top: 50%;
-    right: -100px;
+    right: -30px;
     transform: translateY(-50%);
     background: url("../images/hero.png") no-repeat;
     background-size: contain;

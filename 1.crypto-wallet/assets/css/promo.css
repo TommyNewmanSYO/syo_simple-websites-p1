@@ -4,6 +4,7 @@
 }
 
 .promo-card {
+  min-height: 100%;
   border-radius: var(--radius-5);
   padding: 40px 25px;
 }
