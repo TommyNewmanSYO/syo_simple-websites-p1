@@ -354,6 +354,10 @@
     max-width: unset;
   }
 
+  .hero-banner img {
+    border-radius: 50%;
+  }
+
   /**
    * FEATURE
    */

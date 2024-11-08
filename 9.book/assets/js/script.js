@@ -53,6 +53,8 @@ const filter = function () {
   for (let i = 0; i < filterItems.length; i++) {
     if (filterItems[i].dataset.filter === this.dataset.filterBtn) {
       filterItems[i].style.display = "block";
+    } else if (this.dataset.filterBtn === "all") {
+      filterItems[i].style.display = "block";
     } else {
       filterItems[i].style.display = "none";
     }
